@@ -23,7 +23,17 @@ int main(){
 		 case 1:
 			 cout<<"Ingrese el monto a depositar: ";cin>>valor;
 			 depositar(valor);
+			 system("pause");
 			 break;
+		 case 2:
+		 	 cout<<"Ingrese el monto a retirar: ";cin>>valor;
+		 	 retirar(valor);
+		 	 system("pause");
+		 	 break;
+		 case 3:
+		 	 mostrarSaldo();
+		 	 system("pause");
+		 	 break;
 		 case 0:
 			 cout<<"Saliendo... "<<endl;
 			 system("pause");
